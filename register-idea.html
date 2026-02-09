@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register Your Business Idea | Nine Growth Consultancy</title>
+        <meta
+            name="description"
+            content="Register your business idea with Nine Growth Consultancy. From idea to execution, we guide, support, and grow your vision."
+        />
+
+        <!-- Bootstrap 5 CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        
+        
+        
+        
+        
+            <!-- Favicon and Icons -->
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+        <link rel="manifest" href="site.webmanifest" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="font-weight: 700; font-size: 1.35rem; letter-spacing: 0.01em; display: flex; align-items: center; gap: 8px;">
+                    <span style="color: var(--primary-navy); font-weight: 700;">9 Growth</span>
+                    <span style="color: var(--accent-orange); font-weight: 700;">Consultancy</span>
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent"
+                    aria-controls="navbarContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="property.html">Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tech.html">Tech</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="import-export.html">Global Trade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="business.html">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="register-idea.html">Register Idea</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="investors.html">Investors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="documents.html">Documents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="loans.html">Loans</a>
+                        </li>
+                        <li class="nav-item ms-lg-2">
+                             <a class="btn btn-primary-custom" href="contact.html">Contact</a>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section (Aligned with Index/Loans) -->
+        <section class="hero-section position-relative overflow-hidden">
+            <!-- Background Elements -->
+            <div class="hero-bg-elements position-absolute w-100 h-100" style="z-index: 0;">
+                <div class="bg-shape bg-shape-1"></div>
+                <div class="bg-shape bg-shape-2"></div>
+                <div class="hero-pattern"></div>
+            </div>
+
+            <div class="container position-relative" style="z-index: 1;">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="hero-badge mb-3">
+                            <span class="badge bg-light text-navy border px-3 py-2 rounded-pill">
+                                <i class="fas fa-lightbulb text-warning me-2"></i>Turn Ideas Into Reality
+                            </span>
+                        </div>
+                        <h1 class="display-heading mb-4">
+                            Register Your <span class="text-gradient">Business Idea</span> with Nine Growth Consultancy
+                        </h1>
+                        <p class="lead text-secondary mb-5">
+                            From rough concept to market execution — we guide, support, and help you grow your vision into a scalable business.
+                        </p>
+                        <div class="hero-actions d-flex gap-3 flex-wrap">
+                            <a href="#register-form" class="btn btn-primary btn-lg shadow-sm" style="background-color: var(--accent-orange); border: none;">
+                                Start Your Journey
+                            </a>
+                             <a href="#special-programs" class="btn btn-outline-custom btn-lg">
+                                Explore Programs
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <div class="hero-visual-wrapper position-relative">
+                            <img
+                                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                                alt="Team brainstorming business ideas"
+                                class="img-fluid rounded-4 shadow-lg hero-main-img"
+                            />
+                            <!-- Floating Card -->
+                            <div class="floating-card floating-card-1 position-absolute top-0 end-0 mt-4 me-n4 d-none d-lg-block">
+                                <div class="card border-0 shadow-lg p-3">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <div class="icon-wrapper bg-light rounded-circle text-accent">
+                                            <i class="fas fa-rocket"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Launch Ready</h6>
+                                            <small class="text-muted">Step-by-step guidance</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About FoxFundz -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2 class="font-playfair mb-4 text-navy">About Nine Growth Consultancy</h2>
+                        <p class="lead text-muted mb-4">
+                            Nine Growth Consultancy is a business guidance and startup support platform designed to help individuals transform ideas into real, workable, and scalable businesses.
+                        </p>
+                        <p class="text-muted">
+                            Whether you are a student, a young entrepreneur, a working professional, or an existing business owner, Nine Growth Consultancy provides step-by-step guidance, execution planning, marketing strategy, documentation support, and funding-related assistance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Programs Section (Youth & 20+) -->
+        <section id="special-programs" class="py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8">
+                        <span class="text-accent fw-bold text-uppercase letter-spacing-1">Programs</span>
+                        <h2 class="display-heading mb-3">Tailored Guidance</h2>
+                        <p class="lead text-secondary">We have customized our approach based on your experience level.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4 d-flex align-items-stretch">
+                    <!-- Under 20 Youth -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-sm p-4 text-center hover-lift" style="transition: transform 0.3s ease;">
+                            <div class="mb-4">
+                                <span class="badge rounded-pill bg-light text-navy px-4 py-2 mb-3 border">Under 20 Years</span>
+                                <h3 class="font-playfair text-navy mb-3">Young Ideas</h3>
+                                <p class="text-muted small">Special Program for Students & Youth</p>
+                            </div>
+                            <div class="card-body">
+                                <p class="mb-4 text-muted">
+                                    Start early with clarity. We help you convert ideas into practical business models without the overwhelm.
+                                </p>
+                                <ul class="list-unstyled text-start mx-auto" style="max-width: 400px;">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Practical model creation</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Market validation basics</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Costing & pricing strategy</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Branding fundamentals</li>
+                                     <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Step-by-step execution roadmap</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Future readiness</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 20+ Age Group -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-lg p-4 text-center position-relative overflow-hidden" style="background-color: #fff;">
+                            <div class="position-absolute top-0 end-0 bg-accent text-white px-3 py-1 rounded-bl-3" style="background: var(--accent-orange); border-bottom-left-radius: 10px;">Recommended</div>
+                             <div class="mb-4">
+                                <span class="badge rounded-pill bg-navy text-white px-4 py-2 mb-3">20+ Professionals</span>
+                                <h3 class="font-playfair text-navy mb-3">Professional Launch</h3>
+                                <p class="text-muted small">Advanced Support for Professionals</p>
+                            </div>
+                            <div class="card-body">
+                                <p class="mb-4 text-muted">
+                                    Turn your experience into opportunity with advanced scaling, marketing, and operational strategies.
+                                </p>
+                                <ul class="list-unstyled text-start mx-auto" style="max-width: 400px;">
+                                    <li class="mb-2"><i class="fas fa-check text-navy me-2"></i>Launch & Scale planning</li>
+                                    <li class="mb-2"><i class="fas fa-check text-navy me-2"></i>Advanced marketing roadmap</li>
+                                    <li class="mb-2"><i class="fas fa-check text-navy me-2"></i>Profit optimization</li>
+                                    <li class="mb-2"><i class="fas fa-check text-navy me-2"></i>Team & Ops setup</li>
+                                    <li class="mb-2"><i class="fas fa-check text-navy me-2"></i>Long-term growth strategy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Pillars Support -->
+        <section class="section-dark">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Funding -->
+                    <div class="col-md-4">
+                        <div class="process-item h-100 rounded-3 text-start p-4">
+                            <i class="fas fa-hand-holding-dollar fa-3x mb-4 text-accent"></i>
+                            <h4 class="font-playfair text-white mb-3">Funding Guidance</h4>
+                            <p class="small text-white-50 mb-3">Strategy over just capital.</p>
+                            <ul class="list-unstyled small text-white-50">
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Funding readiness</li>
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Investor pitching</li>
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Financial projections</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Marketing -->
+                    <div class="col-md-4">
+                         <div class="process-item h-100 rounded-3 text-start p-4">
+                            <i class="fas fa-bullhorn fa-3x mb-4 text-accent"></i>
+                            <h4 class="font-playfair text-white mb-3">Market Execution</h4>
+                            <p class="small text-white-50 mb-3">Turning plans into action.</p>
+                            <ul class="list-unstyled small text-white-50">
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Customer targeting</li>
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Sales strategy</li>
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Brand positioning</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Documentation -->
+                    <div class="col-md-4">
+                         <div class="process-item h-100 rounded-3 text-start p-4">
+                            <i class="fas fa-file-contract fa-3x mb-4 text-accent"></i>
+                            <h4 class="font-playfair text-white mb-3">Documentation</h4>
+                            <p class="small text-white-50 mb-3">Solid foundation for growth.</p>
+                             <ul class="list-unstyled small text-white-50">
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Business plans</li>
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Pitch decks</li>
+                                <li class="mb-2"><i class="fas fa-angle-right text-accent me-2"></i>Compliance basics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- What Next Section -->
+         <section class="py-5 bg-light">
+             <div class="container">
+                 <div class="text-center mb-5">
+                    <h2 class="font-playfair text-navy">Where Ideas Turn into Executable, Profitable Businesses</h2>
+                    <p class="lead text-muted">What You Can Get Next with Nine Growth Consultancy</p>
+                 </div>
+                 <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="bg-white p-4 h-100 shadow-sm rounded-3">
+                             <div class="d-flex align-items-center mb-3">
+                                 <span class="bg-navy text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">1</span>
+                                 <h5 class="mb-0 text-navy">Legal, Terms & Disclaimer Support</h5>
+                             </div>
+                             <p class="text-muted">Clear legal wording, terms & conditions, and disclaimers to keep your business compliant and professional.</p>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="bg-white p-4 h-100 shadow-sm rounded-3">
+                             <div class="d-flex align-items-center mb-3">
+                                 <span class="bg-navy text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">2</span>
+                                 <h5 class="mb-0 text-navy">Idea Registration Workflow</h5>
+                             </div>
+                             <p class="text-muted">Well-structured form questions, internal review flow, and user journey setup for smooth onboarding.</p>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-6">
+                        <div class="bg-white p-4 h-100 shadow-sm rounded-3">
+                             <div class="d-flex align-items-center mb-3">
+                                 <span class="bg-navy text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">3</span>
+                                 <h5 class="mb-0 text-navy">Premium Investor & Pitch Content</h5>
+                             </div>
+                             <p class="text-muted">High-quality investor-style copy, pitch-ready language, and growth-focused presentation.</p>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         </section>
+
+        <!-- CTA Registration Form -->
+        <section id="register-form" class="py-5" style="background-color: var(--accent-orange);">
+            <div class="container text-center text-white">
+                <h2 class="display-4 font-playfair fw-bold mb-4">Register Your Business Idea</h2>
+                <h4 class="mb-4 font-inter fw-light">Register Today, Build Tomorrow</h4>
+                <ul class="list-inline mb-5" style="font-size: 1.1rem;">
+                    <li class="list-inline-item mx-3"><i class="fas fa-check-circle me-2"></i>Register your idea</li>
+                    <li class="list-inline-item mx-3"><i class="fas fa-check-circle me-2"></i>Get expert guidance</li>
+                    <li class="list-inline-item mx-3"><i class="fas fa-check-circle me-2"></i>Execution with confidence</li>
+                </ul>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrUR48RZVMIo0Up-Bnew54F0T0PiNkxHj5pC7prAAPdkixnA/viewform?usp=sharing&ouid=101425842223420344462" target="_blank" class="btn btn-light btn-lg px-5 py-3 rounded-pill shadow fw-bold text-accent">
+                    Click Here to Register Now
+                </a>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-center font-playfair mb-5 text-navy">Frequently Asked Questions</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion" id="faqAccordion">
+                            <!-- Q1 -->
+                            <div class="accordion-item mb-3 border rounded shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                        Q1. Who can register a business idea on Nine Growth Consultancy?
+                                    </button>
+                                </h2>
+                                <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Anyone can register - students, under 20 youth, working professionals, entrepreneurs, and existing business owners.
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Q2 -->
+                            <div class="accordion-item mb-3 border rounded shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                        Q2. I am under 20 and have no experience. Can I still apply?
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Yes. Nine Growth Consultancy has a beginner-friendly guidance program specially for under 20 youth.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Q3 -->
+                            <div class="accordion-item mb-3 border rounded shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                        Q3. Does Nine Growth Consultancy provide direct funding?
+                                    </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Nine Growth Consultancy provides funding guidance and preparation support. Funding approval depends on eligibility.
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Q4 -->
+                            <div class="accordion-item mb-3 border rounded shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                        Q4. What type of business ideas are accepted?
+                                    </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        All types - startups, small businesses, online, service-based, product-based, and innovative ideas.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Q5 -->
+                            <div class="accordion-item mb-3 border rounded shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                        Q5. Is this guidance only for startups?
+                                    </button>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        No. Existing businesses looking to scale or improve are also supported.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Q6 -->
+                            <div class="accordion-item mb-3 border rounded shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                                        Q6. Will I get personal guidance or general advice?
+                                    </button>
+                                </h2>
+                                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        You receive personalized, point-to-point guidance based on your idea and goals.
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Q7 -->
+                            <div class="accordion-item mb-3 border rounded shadow-sm">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+                                        Q7. Are business documents created by Nine Growth Consultancy?
+                                    </button>
+                                </h2>
+                                <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Guidance and structure are provided. Final documents depend on selected services.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Standardized Footer -->
+        <footer class="bg-dark text-white pt-5 pb-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Company Info -->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="d-flex align-items-center mb-3">
+                            <img
+                                src="favicon.svg"
+                                alt="Nine Growth Consultancy Logo"
+                                class="me-3"
+                                style="height: 40px; width: auto"
+                            />
+                            <h4 class="mb-0">
+                                <span style="color: var(--accent-orange)"
+                                    >Nine Growth</span
+                                >
+                                <span style="color: var(--accent-orange)"
+                                    >Consultancy</span
+                                >
+                            </h4>
+                        </div>
+                        <p class="mt-3">
+                            Providing modern business funding solutions in India
+                            with transparency, speed, and security.
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a
+                                    href="index.html"
+                                    class="text-white text-decoration-none"
+                                    >Home</a
+                                >
+                            </li>
+                             <li class="mb-2">
+                                <a
+                                    href="property.html"
+                                    class="text-white text-decoration-none"
+                                    >Property</a
+                                >
+                            </li>
+                             <li class="mb-2">
+                                <a
+                                    href="tech.html"
+                                    class="text-white text-decoration-none"
+                                    >Tech</a
+                                >
+                            </li>
+                             <li class="mb-2">
+                                <a
+                                    href="import-export.html"
+                                    class="text-white text-decoration-none"
+                                    >Global Trade</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="business.html"
+                                    class="text-white text-decoration-none"
+                                    >Business</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="investors.html"
+                                    class="text-white text-decoration-none"
+                                    >Investors</a
+                                >
+                            </li>
+                             <li class="mb-2">
+                                <a
+                                    href="documents.html"
+                                    class="text-white text-decoration-none"
+                                    >Documents</a
+                                >
+                            </li>
+                            <li class="mb-2">
+                                <a
+                                    href="loans.html"
+                                    class="text-white text-decoration-none"
+                                    >Loans</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h5>Our Services</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="business.html" class="text-white text-decoration-none">Nine Growth Business</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="property.html" class="text-white text-decoration-none">Property & Real Estate</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="tech.html" class="text-white text-decoration-none">Nine Growth Tech</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="import-export.html" class="text-white text-decoration-none">Global Import-Export</a>
+                            </li>
+                             <li class="mb-2">
+                                <a href="investors.html" class="text-white text-decoration-none">Investor Program</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="documents.html" class="text-white text-decoration-none">Documentation Support</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Connect -->
+                    <div class="col-lg-3 col-md-6">
+                        <h5>Connect With Us</h5>
+                        <p class="small mt-4"></p>
+                        <p class="mb-1">
+                            <i class="fas fa-phone me-2"></i> +91 87918 86474
+                        </p>
+                        <p class="mb-1">
+                            <i class="fas fa-envelope me-2"></i>
+                            ninegrowthconsultancy@gmail.com
+                        </p>
+                    </div>
+
+                    <p style="text-align: center" class="small mt-4">
+                        &copy; 2026 Nine Growth Consultancy. All Rights Reserved. |
+                        <a
+                            href="terms.html"
+                            class="text-white text-decoration-none"
+                            >Terms & Conditions</a
+                        >
+                        |
+                        <a
+                            href="disclaimer.html"
+                            class="text-white text-decoration-none"
+                            >Disclaimer</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap 5 CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

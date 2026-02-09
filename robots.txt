@@ -1,0 +1,46 @@
+# Robots.txt for Fox Fundz
+# Website: https://www.foxfundz.com
+# Business loan assistance and funding solutions in India
+
+User-agent: *
+Allow: /
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Disallow common non-essential directories (if they exist)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /logs/
+
+# Allow access to CSS, JS, and images for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /fonts/
+
+# Sitemap location
+Sitemap: https://www.foxfundz.com/sitemap.xml
+
+# Crawl-delay (optional - prevents overwhelming the server)
+# Crawl-delay: 1
+
+# Last updated: January 2025
+# Contact: foxfundz@gmail.com for any crawling issues
